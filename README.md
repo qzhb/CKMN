@@ -43,7 +43,15 @@ This is a PyTorch implementation of the model described in our paper:
 
 Please cite our paper if you use this code in your own work:
 
-> Z. Qi, S. Wang, C. Su, L. Su, Q. Huang, and Q. Tian. Towards More Explainability: Concept Knowledge Mining Network for Event Recognition. ACM MM 2020.
+```
+@inproceedings{qi2020towards,
+  title={Towards More Explainability: Concept Knowledge Mining Network for Event Recognition},
+  author={Qi, Zhaobo and Wang, Shuhui and Su, Chi and Su, Li and Huang, Qingming and Tian, Qi},
+  booktitle={Proceedings of the 28th ACM International Conference on Multimedia},
+  pages={3857--3865},
+  year={2020}
+}
+```
 
 # Contcat
 
