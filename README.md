@@ -15,7 +15,7 @@ This is a PyTorch implementation of the model described in our paper:
 
 ## Dataset Prepare
 
-1. Download the pre-trained concept detector weights from [Baidu]() passward  or [Google Grive](https://drive.google.com/drive/folders/1jPssDmtePpwiJEIdZtNqM6PlLeo5uSyo) and put them in folder weights/
+1. Download the pre-trained concept detector weights from [Baidu](https://pan.baidu.com/s/1pihbuOLvML6CrbGrZLFxdg) passward 'wv0e' or [Google Grive](https://drive.google.com/drive/folders/1jPssDmtePpwiJEIdZtNqM6PlLeo5uSyo) and put them in folder weights/
 
 2. Download the FCVID dataset from http://bigvid.fudan.edu.cn/FCVID/.
 
@@ -23,7 +23,7 @@ This is a PyTorch implementation of the model described in our paper:
 
 4. Extract the video frames for each video and put the extracted frames in folder data/FCVID/frames/.
 
-   For ActivityNet dataset ( http://activity-net.org/. ) , we use the latest released version of the dataset (v1.3).
+   For ActivityNet dataset ( http://activity-net.org/.) , we use the latest released version of the dataset (v1.3).
 
 # Train
 
@@ -33,7 +33,7 @@ This is a PyTorch implementation of the model described in our paper:
 
 # Test
 
-* Pretrained model weigths are avaiable in [Baidu]() passward  or [Google Grive](https://drive.google.com/drive/folders/1Ksnc9-LQ9b9qtVqokl77QLddBAgZXixf)
+* Pretrained model weigths are avaiable in [Baidu](https://pan.baidu.com/s/1gaszGTmCCeoD98YJsQHbyg) passward '7uq8' or [Google Grive](https://drive.google.com/drive/folders/1Ksnc9-LQ9b9qtVqokl77QLddBAgZXixf)
 * Download the pre-trained weights and put them in folder results/
 
 * python main.py --gpu_ids 0,1 --dataset FCVID  --resume_path pretrained_model/CKMN.pth --no_train --test_crop_number 1
