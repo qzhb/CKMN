@@ -15,7 +15,7 @@ This is a PyTorch implementation of the model described in our paper:
 
 ## Dataset Prepare
 
-1. Download the pre-trained concept detector weights form [Google Grive](https://drive.google.com/drive/folders/1jPssDmtePpwiJEIdZtNqM6PlLeo5uSyo?usp=sharing) and put them in folder weights/
+1. Download the pre-trained concept detector weights from [Baidu]() passward  or [Google Grive](https://drive.google.com/drive/folders/1jPssDmtePpwiJEIdZtNqM6PlLeo5uSyo) and put them in folder weights/
 
 2. Download the FCVID dataset from http://bigvid.fudan.edu.cn/FCVID/.
 
@@ -33,7 +33,7 @@ This is a PyTorch implementation of the model described in our paper:
 
 # Test
 
-* Pretrained model weigths are avaiable in [Google Grive](https://drive.google.com/drive/folders/1FBNcJ4lPAviR68eU6ukYUFCWOocBlNhO?usp=sharing) 
+* Pretrained model weigths are avaiable in [Baidu]() passward  or [Google Grive](https://drive.google.com/drive/folders/1Ksnc9-LQ9b9qtVqokl77QLddBAgZXixf)
 * Download the pre-trained weights and put them in folder results/
 
 * python main.py --gpu_ids 0,1 --dataset FCVID  --resume_path pretrained_model/CKMN.pth --no_train --test_crop_number 1
